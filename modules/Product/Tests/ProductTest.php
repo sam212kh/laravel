@@ -3,7 +3,7 @@ namespace Modules\Product\Tests;
 
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Product\Modules\Product;
+use Modules\Product\Models\Product;
 use Tests\TestCase;
 
 class ProductTest extends TestCase {

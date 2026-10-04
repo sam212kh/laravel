@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id');
             $table->unsignedInteger('total_in_cents');
+            $table->unsignedInteger('payment_id');
+            $table->string('payment_gateway');
             $table->string('status');
             $table->timestamps();
         });
